@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Iniciando o Desafio Dia 31/01
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvimento do design do App utilizando o figma  [Figma](https://www.figma.com/file/rHkVf1WIRoaGbOiDlye25U/Untitled?node-id=1%3A337).
 
 ## Available Scripts
 
