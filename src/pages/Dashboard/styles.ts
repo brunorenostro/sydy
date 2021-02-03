@@ -19,60 +19,28 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  
 
 `;
 
 export const Card = styled.div`
 
-display: block;
+  display: block;
   position: relative;
   max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
+  min-width:200px ;
+  background-color: #a4a8d1;
+  border-radius: 10px;
   padding: 32px 24px;
   margin: 12px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
+  color:#fff;
 
-  h1 {
-  color: #262626;
-
-  line-height: 24px;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-
-  &:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: #00838d;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
-    transform: scale(1);
-    transform-origin: 50% 50%;
-    transition: transform 0.25s ease-out;
-  }
-
-  &:hover:before {
-    transform: scale(21);
-  }
-}
-
-&:hover {
-  p {
-    transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255, 0.8);
-  }z'
-  h1 {
-    transition: all 0.3s ease-out;
-    color: #ffffff;
-  }
+h1{
+  text-align:center;
 }
 
 `;
