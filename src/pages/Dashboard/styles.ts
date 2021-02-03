@@ -30,7 +30,7 @@ export const Card = styled.div`
   position: relative;
   max-width: 262px;
   min-width:200px ;
-  background-color: #a4a8d1;
+  background-color: #1976D2;
   border-radius: 10px;
   padding: 32px 24px;
   margin: 12px;
@@ -41,6 +41,11 @@ export const Card = styled.div`
 
 h1{
   text-align:center;
+}
+
+p{
+  text-align:center;
+font-size:22px;
 }
 
 `;

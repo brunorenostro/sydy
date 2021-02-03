@@ -50,7 +50,7 @@ const Dashboard: React.FC = () => {
         getData();
 
 
-    });
+    }, []);
 
     return (<>
         <AppBar position="static">
@@ -66,9 +66,9 @@ const Dashboard: React.FC = () => {
         </AppBar>
         <Container>
             <CardContainer>
-                <Card><h1>$ {bitcoinBRL}</h1></Card>
-                <Card><h1>£ {bitcoinGBP}</h1></Card>
-                <Card><h1>€ {bitcoinEUR}</h1></Card>
+                <Card><h1>$ {bitcoinBRL}</h1><p>Dólar</p></Card>
+                <Card><h1>£ {bitcoinGBP}</h1><p>Libra</p></Card>
+                <Card><h1>€ {bitcoinEUR}</h1><p>Euro</p></Card>
             </CardContainer>
         </Container>
 
