@@ -9,6 +9,6 @@ Resolvi abandonar o design feito no FIGMA e usar Material UI
 ## Dia 02/02
 
 Já está sendo consumido os dados através do Axios e exibindo os valores nos cards.
-Está sendo usando o UseEffect para disparar o evento e o UseState para alterar os valores.
+Está sendo usado o UseEffect para disparar o evento e o UseState para alterar os valores.
 
 
