@@ -11,4 +11,9 @@ Resolvi abandonar o design feito no FIGMA e usar Material UI
 Já está sendo consumido os dados através do Axios e exibindo os valores nos cards.
 Está sendo usado o UseEffect para disparar o evento e o UseState para alterar os valores.
 
+## Dia 04/02
+
+Foi feito a componentização do Header, visto que ele deve aparecer tanto na pagina inicial, Dashboard, quanto na página do Historico de preço do Moeda, History.
+Foi utilizado o componente Link para fazer a mudança de rota.
+Foi criado a Página History para mostrar o gráfico da variação de preço da moeda.
 
