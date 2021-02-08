@@ -10,6 +10,11 @@ padding:40px 20px;
 min-height:800px;
 border-radius:30px;
 
+
+
+a{
+  text-text-decoration:none;
+}
 `;
 
 
@@ -38,6 +43,11 @@ export const Card = styled.div`
   z-index: 0;
   overflow: hidden;
   color:#fff;
+  border: 4px solid transparent;
+&:hover{
+  border:4px solid #719fb0;
+  box-shadow:5px 5px  #719fb0;
+}
 
 h1{
   text-align:center;

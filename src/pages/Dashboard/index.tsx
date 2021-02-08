@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const useStyles = makeStyles((theme) => ({
@@ -39,6 +39,8 @@ const Dashboard: React.FC = () => {
                 setBitcoinBRL(response.data.bpi.USD.rate);
             });
 
+
+
             const responseGBP = await axios.get('https://api.coindesk.com/v1/bpi/currentprice/GBP.json').then(response => {
                 setBitcoinGBP(response.data.bpi.GBP.rate);
             });
@@ -66,9 +68,10 @@ const Dashboard: React.FC = () => {
         </AppBar>
         <Container>
             <CardContainer>
-                <Card><h1>$ {bitcoinBRL}</h1><p>Dólar</p></Card>
-                <Card><h1>£ {bitcoinGBP}</h1><p>Libra</p></Card>
-                <Card><h1>€ {bitcoinEUR}</h1><p>Euro</p></Card>
+
+                <Link style={{ textDecoration: 'none' }} to="/history/USD"><Card><h1>$ {bitcoinBRL}</h1><p>Dólar</p></Card></Link>
+                <Link style={{ textDecoration: 'none' }} to="/history/GBP"><Card><h1>£ {bitcoinGBP}</h1><p>Libra</p></Card></Link>
+                <Link style={{ textDecoration: 'none' }} to="/history/EUR"> <Card><h1>€ {bitcoinEUR}</h1><p>Euro</p></Card></Link>
             </CardContainer>
         </Container>
 

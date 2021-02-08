@@ -19,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
     title: {
         flexGrow: 1,
     },
+
+    button: {
+        color: '#fff',
+    }
 }));
 
 const Header: React.FC = ({ children, ...rest }) => {
@@ -34,7 +38,7 @@ const Header: React.FC = ({ children, ...rest }) => {
                 <Typography variant="h6" className={classes.title}>
                     SYDY BITCOIN PRICE
       </Typography>
-                {/* <Button color="inherit">Login</Button> */}
+                {children}
             </Toolbar>
         </AppBar>
 
