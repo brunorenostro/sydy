@@ -39,13 +39,8 @@ const History: React.FC = () => {
                 const data = Object.entries(bitcoinBRL);
                 console.log(data);
             });
-
-
-
         }
         getData();
-
-
     });
 
 
