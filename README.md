@@ -17,3 +17,4 @@ Foi feito a componentização do Header, visto que ele deve aparecer tanto na pa
 Foi utilizado o componente Link para fazer a mudança de rota.
 Foi criado a Página History para mostrar o gráfico da variação de preço da moeda.
 
+![tela dashboard](https://github.com/brunorenostro/sydy/blob/main/screenshot1.PNG)
